@@ -19,6 +19,14 @@ class Dept2 extends College
 		System.out.println("This is Computer department.");
 	}
 }
+class Dept3 extends College
+{
+	void dept3info()
+	{
+		System.out.println("This is Civil department.");
+	}
+}
+
 public class Hierarchical
 {
 	public static void main(String args[])
@@ -30,5 +38,10 @@ public class Hierarchical
 		Dept2 d2 = new Dept2();
 		d2.clgname();
 		d2.dept2info();
+		System.out.println("---------");
+		Dept3 d3 = new Dept3();
+		d3.clgname();
+		d3.dept3info();
 	}
 }
+
